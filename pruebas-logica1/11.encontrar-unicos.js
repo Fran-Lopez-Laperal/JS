@@ -5,24 +5,19 @@ Devuelve un array con todos los elementos que aparezcan solo una vez en el array
 
 function unique(arr) {
 
+    let unicos = [];
 
+    const sortArr = arr.sort()
+    
 
-
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i + 1] = arr[i]) {
-           return  arr[i]
+    for (let i = 0; i < sortArr.length; i++) {
+        if (sortArr[i] === sortArr[i + 1]) {
+            false
+        } else if (sortArr[i] = sortArr[i + 1]) {
+            unicos.push(sortArr[i])
         }
-
-        // console.log(sortArr[i])
-        // if(arr[i] === arr[i + 1]){
-        //      false
-        // }else if(arr[i] = arr[i + 1]){
-        //     unicos.push(arr[i])
-        // }
     }
-
-
-
+    return unicos
 }
 
 console.log(unique([4, 5, 4, 4, 6]));
