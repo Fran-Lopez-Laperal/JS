@@ -5,7 +5,7 @@ encontrar el número indicado en el parametro 'numToFind'
 */
 
 function binarySearch(arr, numToFind) { 
-
+    
 }
 
 console.log(binarySearch([2, 5, 8, 12, 23, 38, 56, 72, 91], 23));

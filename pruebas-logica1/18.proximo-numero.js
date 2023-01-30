@@ -5,7 +5,7 @@ al que nos llega en el parámetro 'num'.
 */
 
 function nextLargerNumber(num) {
-
+    
 }
 
 console.log(nextLargerNumber(2019));
