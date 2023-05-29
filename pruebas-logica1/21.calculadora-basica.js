@@ -4,7 +4,29 @@ Recibiendo un número, un operador ('+', '-', '*', '/'), y otro número, resuelv
 */
 
 function basicCalculator(firstNumber, operator, secondNumber) {
+    let operation = operator.trim(" ")
 
+
+
+    switch (operation) {
+        case '+':
+            result = firstNumber + secondNumber
+            break;
+
+        case '-':
+            result = firstNumber - secondNumber
+            break;
+        case '*':
+            result = firstNumber * secondNumber
+            break;
+        case '/':
+            result = firstNumber / secondNumber
+            break;
+        default:
+            break;
+    }
+
+    return result
 }
 
-console.log(basicCalculator(12, "/", 5));
+console.log(basicCalculator(12, "*", 5));
