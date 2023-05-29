@@ -4,7 +4,10 @@ Encontrar la letra en el abecedario según el número, si no se encuentra devolv
 */
 
 function positionInAlphabet(num) {
-
+  if (num >= 1 && num <= 26){
+    const letter = String.fromCharCode(64 + num)
+    return letter
+  }
 }
 
-console.log(positionInAlphabet(26));
+console.log(positionInAlphabet(8));
