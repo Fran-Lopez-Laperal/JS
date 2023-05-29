@@ -5,7 +5,9 @@ Los únicos números disponibles son los que están dentro del parámetro 'arr'.
 */
 
 function twoNumbers(arr, result) { 
-    
+        
 }
 
 console.log(twoNumbers([2, 7, 11, 15]));
+
+
