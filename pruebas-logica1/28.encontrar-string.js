@@ -4,7 +4,8 @@ Queremos saber cuántas veces se encuentra target dentro de string
 */
 
 function findSubstring(target, string) {
-
-}
-
-console.log(findSubstring("ara", "ararara")) // 3
+    const substrings = string.split(target);
+    return substrings.length;
+  }
+  
+  console.log(findSubstring("ara", "ararara")); // Output: 3

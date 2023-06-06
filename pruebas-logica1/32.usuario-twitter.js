@@ -5,7 +5,11 @@ EJ: 'Seguinos en @CourseIt_' => @CourseIt_
 */
 
 function findHandler(str) {
+    const usuario = '@'
+    const usuarioEncontrado = str.toLowerCase().includes(usuario)
 
+    return  `${str} => ${usuarioEncontrado}`
+   
 }
 
 

@@ -4,7 +4,8 @@ En base a un array ordenado 'arr', en que posicion se tendria que insertar "num"
 */
 
 function insertPosition(arr, num) {
-
+    arr.splice(0, 0, num);
+    return arr
 }
 
 
